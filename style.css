@@ -1,0 +1,166 @@
+@charset  "UTF-8";
+
+
+:root {
+   
+   --cor0: #f3ef2056;
+   --cor1: #D9D500;
+   --cor2: #F4CF5D;
+   --cor3: #F2A107;
+   --cor4: #595800;
+   --cor5: #740874be;
+   --cor6: #470a47ce;
+    
+} 
+
+   *{  /*SELETOR GLOBAL, ABRANGE TODOS OS ELEMENTOS, INDEPENDENTE SE ESTAO DESCRITOS NO CODIGO OU NAO */
+
+    margin: 0px; /*deixa todos os boxs colados */
+    padding: 0px; /*define o espaço entre o conteudo e a borda */
+     
+    } */
+
+
+body {
+    background-color: whitesmoke;
+
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor2));
+    
+    
+
+    background-color: var(--cor3);
+    padding: 90px;
+
+}
+
+header > h1{
+    font-size: 55px;
+    color: white;
+}
+
+nav {
+
+    background-color: var(--cor2);
+    padding: 20px;
+
+}
+
+nav > a {
+
+    font-size: 20px;
+}
+
+img{
+   
+    padding-left: 255px;
+    width: 450px;
+    height: 200px;
+    b
+}
+
+main.principal{
+
+padding-left: 130px;
+padding-right: 130px;
+
+    
+}
+
+
+
+
+
+main.m1{
+
+    background-color: var(--cor3);
+    height: 350px;
+    
+    
+}
+
+
+
+
+
+
+
+main.m2{
+
+    background-color: var(--cor2);
+    height: 350px;
+}
+
+
+
+
+    section{
+        margin: auto;
+        background-color: var(--cor5) ;
+        width: 1003px;
+        height: 300px;
+
+        background-image: linear-gradient(to top, var(--cor6), var(--cor2));
+    }
+
+    section > h1 {
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    section > p {
+        
+        text-align: justify;
+        font-weight: bolder;
+        color:white;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+
+    aside{
+
+        padding-left: 130px;
+        padding-right: 130px;
+        padding-bottom: 10px;
+
+        padding-top: 10px;
+         background-color: var(--cor6);
+        color: white;
+
+        background-image: linear-gradient(to bottom, var(--cor6), var(--cor5));
+         
+    }
+
+    aside > p {
+
+        padding-bottom: 10px;
+    }
+
+    footer{
+
+        padding-top: 10px;
+        background-color: var(--cor6);
+        color: white;
+        text-align: center;
+        background-image: linear-gradient(to bottom, var(--cor6), var(--cor5));
+        
+    }
+    
+
+    footer > p {
+        margin: auto;
+      
+        width: 500px;
+    
+       
+    
+        padding-bottom: 15px;
+    
+    
+        margin-top: -10px;
+    
+        }
